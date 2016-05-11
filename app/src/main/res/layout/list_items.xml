@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    tools:ignore="HardcodedText,RtlHardcoded,SmallSp,UselessParent" >
+
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/card_01" >
+
+        <RelativeLayout
+            android:id="@+id/item_layout_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/card_item_head" />
+
+            <Button
+                android:id="@+id/item_btn_send"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_send_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/item_layout_con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/item_layout_head"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/item_layout_head"
+            android:layout_below="@+id/item_layout_head" >
+
+            <TextView
+                android:id="@+id/item_tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/card_item_number"
+                android:drawablePadding="10dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/item_tv_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/item_tv_number"
+                android:layout_below="@+id/item_tv_number"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/card_item_pwd"
+                android:drawablePadding="10dp"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/item_btn_copy"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_copy_bg" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

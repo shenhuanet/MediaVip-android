@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MediaVip</string>
+
+    <string name="ver">神话出品 2015 All Rights Reserved</string>
+    <string name="number">账号</string>
+    <string name="pwd">密码</string>
+    <string name="resenttime">2015/12/23 15:34:23</string>
+    <string name="nodata">加载失败，点击重试</string>
+    <string name="dialog_cacle">取        消</string>
+    <string name="dialog_ok">同        意</string>
+</resources>

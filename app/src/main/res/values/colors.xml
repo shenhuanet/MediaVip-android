@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="card01">#764BA5</color>
+    <color name="card02">#0BC70B</color>
+    <color name="card03">#5A75FF</color>
+    <color name="card04">#00A762</color>
+    <color name="card05">#E0463C</color>
+    <color name="dialog_press">#ECEFE5</color>
+    <color name="dialog_c_nor">#C0C97F</color>
+    <color name="dialog_o_nor">#33BE24</color>
+</resources>
